@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Course Evaluation Survey Form</title>
+  </head>
+  <body>
+
+  <link rel="stylesheet" href="./survey stylesheet.css">
+
+
+<h1 id="title">Course Satisfaction Survey Form</h1>
+<p id="description">Please help us maintain our standards of excellence</p>
+
+<div id="body">
+<form id="survey-form">
+
+  <label id="name-label" for="name">
+  <p>Full Name:</p>
+   </label>
+      <input id="name" type="text" placeholder="Enter Your Name" required>
+
+
+   <label id="email-label" for="email">
+    <p>Email:</p>
+    </label>
+
+        <input id="email" type="email" placeholder="Enter Your Email" required>
+
+   <label id="number-label" for="number">
+  <p>Age:</p>
+  </label>
+
+  <input id="number" type="number" placeholder="Enter Your Age" min="12" max="50" required>
+
+  <p>What are the elements of a successful training program:</p>
+  <select id="dropdown">
+
+    <option value="default">Select</option>
+    <option value="It is concise.">It is concise.</option>
+    <option value="It is focused.">It is focused.</option>
+    <option value="It uses experts.">It uses experts.</option>
+    <option value="It relies on business cases.">It relies on business cases.</option>
+    <option value="It is inclusive of participants.">It is inclusive of participants.</option>
+
+  </select>
+
+  <p>How would you rate the training program?</p>
+
+  <input type="radio" name="training" value="1">Excellent</input>
+  <br>
+  <input type="radio" name="training" value="2">Very good</input>
+  <br>
+ <input type="radio" name="training" value="3">Good</input>
+<br>
+ <input type="radio" name="training" value="4">Fair</input>
+<br>
+ <input type="radio" name="training" value="5">Poor</input>
+
+ <p>How useful were the course materials?</p>
+
+ <input type="radio" name="course" value="1">Extremely useful</input>
+ <br>
+ <input type="radio" name="course" value="2">Very useful</input>
+ <br>
+ <input type="radio" name="course" value="3">Somewhat useful</input>
+ <br>
+ <input type="radio" name="course" value="4">Not so useful</input>
+ <br>
+ <input type="radio" name="course" value="5">Not at all useful</input>
+
+ <p>How clearly did your instructor explain the course materials?</p>
+
+ <input type="radio" name="instructor" value="1">Extremely clearly</input>
+ <br>
+ <input type="radio" name="instructor" value="2">Very clearly</input>
+ <br>
+ <input type="radio" name="instructor" value="3">Somewhat clearly</input>
+ <br>
+ <input type="radio" name="instructor" value="4">Not so clearly</input>
+ <br>
+ <input type="radio" name="instructor" value="5">Not at all clearly</input>
+
+<p>How was the course pace?</p>
+
+<input type="checkbox" name= "pace" value="1">Extremely fast</input>
+<br>
+ <input type="checkbox" name= "pace" value="2">Very fast </input>
+<br>
+ <input type="checkbox" name= "pace" value="3">The right amount</input>
+<br>
+ <input type="checkbox" name= "pace" value="4">Too slow</input>
+<br>
+ <input type="checkbox" name="pace" value="5">Extremely slow</input>
+<br>
+<p>How helpful were the self-study assignments?</p>
+
+<input type="checkbox" name= "assignments" value="1">Extremely helpful</input>
+<br>
+ <input type="checkbox" name= "assignments" value="2">Very helpful </input>
+<br>
+ <input type="checkbox" name= "assignments" value="3">Somewhat helpful</input>
+<br>
+ <input type="checkbox" name= "assignments" value="4">Not so helpful</input>
+<br>
+ <input type="checkbox" name="assignments" value="5">Not at all helpful</input>
+
+<br>
+
+<p>How effectively did your instructor respond to students' questions?</p>
+
+<input type="checkbox" name= "questions" value="1">Extremely well</input>
+<br>
+ <input type="checkbox" name= "pquestions" value="2">Very well </input>
+<br>
+ <input type="checkbox" name= "questions" value="3">Somewhat well</input>
+<br>
+ <input type="checkbox" name= "questions" value="4">Not so well</input>
+<br>
+ <input type="checkbox" name="questions" value="5">Not at all well</input>
+<br>
+<br>
+
+<p>What improvements might make the course better?</p>
+<textarea id="comment" rows="4" cols="40">Add Your Comment Here. </textarea>
+<br>
+<input id="submit" type="submit" value="Submit">
+
+</form>
+
+</div>
+
+</body>
+</html>
+
+<script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
